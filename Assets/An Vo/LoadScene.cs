@@ -5,8 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour
 {
+    [SerializeField] AudioSource SFX;
     public void LoadMitchScene()
     {
         SceneManager.LoadScene("Mitchell_Gascoigne");
+    }
+
+    public void LoadSarahScene()
+    {
+        SceneManager.LoadScene("");
+    }
+
+    public void LoadAnScene()
+    {
+        SceneManager.LoadScene("An.V_Scene");
+    }
+
+    public void PlaySound()
+    {
+        SFX.Play();
     }
 }
