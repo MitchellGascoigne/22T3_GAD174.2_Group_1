@@ -11,9 +11,9 @@ public class LoadScene : MonoBehaviour
         SceneManager.LoadScene("Mitchell_Gascoigne");
     }
 
-    public void LoadSarahScene()
+    public void LoadSashaScene()
     {
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("Sasha Scene");
     }
 
     public void LoadAnScene()
